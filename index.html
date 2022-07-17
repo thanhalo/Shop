@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,400;1,500&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <section class="header-wrapper">
+            <div class="container">
+                <header>
+                    <div class="header-top d-flex justify-content-between py-4 border-bottom">
+                        <div class="search">
+                            <i class="bi bi-search"></i>
+                        </div>
+                        <div class="logo">
+                            <a href="">
+                                <img srcset="./images/logo.png 2x" alt="" />
+                            </a>
+                        </div>
+                        <div class="account">
+                            <a href="" class="account__link text-decoration-none"
+                                ><i class="bi bi-person fs-5 account__icon"></i> Signup</a
+                            >
+                            <a href="" class="account__link text-decoration-none"
+                                ><i class="bi bi-cart fs-5 account__icon"></i> Signin</a
+                            >
+                        </div>
+                    </div>
+                    <nav class="navbar navbar-expand-lg main-menu">
+                        <div class="container-fluid">
+                            <button
+                                class="navbar-toggler"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation"
+                            >
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div
+                                class="collapse navbar-collapse justify-content-center"
+                                id="navbarSupportedContent"
+                            >
+                                <ul class="navbar-nav mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#"
+                                            >Jewelry & Accessories</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Clothing & Shoes</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Home & Living</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Wedding & Party</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Toys & Entertainment</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Art & Collectibles</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Craft Supplies & Tools</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+                <section class="banner">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <h1 class="banner__title">Collections</h1>
+                            <p class="col-md-8 fs-4 banner__description">
+                                you can explore ans shop many differnt collection from various
+                                barands here.
+                            </p>
+                            <button class="btn btn-dark btn-lg banner__btn" type="button">
+                                <i class="bi bi-handbag mr-2 banner__icon"></i> shop now
+                            </button>
+                        </div>
+                        <div class="col-md-6">
+                            <img srcset="./upload/1.png 2x" alt="" />
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="brands">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img srcset="./upload/brands/1.png 2x" alt="" />
+                    </div>
+                    <div class="col">
+                        <img srcset="./upload/brands/2.png 2x" alt="" />
+                    </div>
+                    <div class="col">
+                        <img srcset="./upload/brands/3.png 2x" alt="" />
+                    </div>
+                    <div class="col">
+                        <img srcset="./upload/brands/4.png 2x" alt="" />
+                    </div>
+                    <div class="col">
+                        <img srcset="./upload/brands/5.png 2x" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feature-product">
+            <div class="container">
+                <span class="feature-product-explore">Explore new and popular styles</span>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="product-image">
+                            <a href="">
+                                <img
+                                    srcset="./upload/feature-product/1.jpg 2x"
+                                    alt=""
+                                    class="img-fluid"
+                                />
+                            </a>
+                            <div
+                                class="product__info d-flex justify-content-between align-items-center py-4 px-3 fs-6"
+                            >
+                                <span>Jacket</span>
+                                <span>103 product</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="product-image">
+                                    <a href="">
+                                        <img
+                                            srcset="./upload/feature-product/2.jpg 2x"
+                                            alt=""
+                                            class="img-fluid"
+                                        />
+                                    </a>
+                                    <div
+                                        class="product__info d-flex justify-content-between align-items-center py-4 px-3 fs-6"
+                                    >
+                                        <span>Jacket</span>
+                                        <span>103 product</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="product-image">
+                                    <a href="">
+                                        <img
+                                            srcset="./upload/feature-product/3.jpg 2x"
+                                            alt=""
+                                            class="img-fluid"
+                                        />
+                                    </a>
+                                    <div
+                                        class="product__info d-flex justify-content-between align-items-center py-4 px-3 fs-6"
+                                    >
+                                        <span>Jacket</span>
+                                        <span>103 product</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="product-image">
+                                    <a href="">
+                                        <img
+                                            srcset="./upload/feature-product/4.jpg 2x"
+                                            alt=""
+                                            class="img-fluid"
+                                        />
+                                    </a>
+                                    <div
+                                        class="product__info d-flex justify-content-between align-items-center py-4 px-3 fs-6"
+                                    >
+                                        <span>Jacket</span>
+                                        <span>103 product</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="product-image">
+                                    <a href="">
+                                        <img
+                                            srcset="./upload/feature-product/5.jpg 2x"
+                                            alt=""
+                                            class="img-fluid"
+                                        />
+                                    </a>
+                                    <div
+                                        class="product__info d-flex justify-content-between align-items-center py-4 px-3 fs-6"
+                                    >
+                                        <span>Jacket</span>
+                                        <span>103 product</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End .feature-product-->
+        <section class="section new-product">
+            <div class="container">
+                <header class="new-product-header section-header">
+                    <h2 class="section-header__title">New Product</h2>
+                </header>
+                <div class="new-product-body">
+                    <div class="block-filter d-flex justify-content-between align-items-center">
+                        <ul class="nav">
+                            <li class="nav-item block-filter__item">
+                                <a
+                                    href=""
+                                    class="nav-link block-filter__link block-filter__link--active"
+                                    >All product</a
+                                >
+                            </li>
+                            <li class="nav-item block-filter__item">
+                                <a href="" class="nav-link block-filter__link">t-shirt</a>
+                            </li>
+                            <li class="nav-item block-filter__item">
+                                <a href="" class="nav-link block-filter__link">hoodies</a>
+                            </li>
+                            <li class="nav-item block-filter__item">
+                                <a href="" class="nav-link block-filter__link">jacket</a>
+                            </li>
+                        </ul>
+                        <button class="btn btn-dark btn-sm">
+                            <i class="bi bi-filter-circle d-inline-block me-1"></i> filter
+                        </button>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <a href="">
+                                        <img
+                                            srcset="./upload/products/1.jpg 2x"
+                                            alt=""
+                                            class="img-fluid"
+                                        />
+                                    </a>
+                                    <div
+                                        class="product__info d-flex justify-content-between align-items-center py-4 px-3 fs-6"
+                                    >
+                                        <div class="d-flex">
+                                            <span><i class="bi bi-heart me-3"></i></span>
+                                            <span><i class="bi bi-search"></i></span>
+                                        </div>
+                                        <div><i class="bi bi-bag me-1"></i> Shop Now</div>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3>
+                                        <a href="" class="product__name"
+                                            >Adicolor Classics Joggers  </a
+                                        >
+                                    </h3>
+                                    <div
+                                        class="product-meta d-flex justify-content-between align-items-center"
+                                    >
+                                        <a href="" class="product__category">Dress</a>
+                                        <span class="product__price">$63.85</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End .product-item-->
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <a href="">
+                                        <img
+                                            srcset="./upload/products/2.jpg 2x"
+                                            alt=""
+                                            class="img-fluid"
+                                        />
+                                    </a>
+                                    <div
+                                        class="product__info d-flex justify-content-between align-items-center py-4 px-3 fs-6"
+                                    >
+                                        <div class="d-flex">
+                                            <span><i class="bi bi-heart me-3"></i></span>
+                                            <span><i class="bi bi-search"></i></span>
+                                        </div>
+                                        <div><i class="bi bi-bag me-1"></i> Shop Now</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="product-content">
+                                    <h3>
+                                        <a href="" class="product__name"
+                                            >Nike Sportswear Futura Luxe</a
+                                        >
+                                    </h3>
+                                    <div
+                                        class="product-meta d-flex justify-content-between align-items-center"
+                                    >
+                                        <a href="" class="product__category">Bag</a>
+                                        <div>
+                                            <span class="product__price product__price"
+                                                >$130.00</span
+                                            >
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End .product-item-->
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <a href="">
+                                        <img
+                                            srcset="./upload/products/3.jpg 2x"
+                                            alt=""
+                                            class="img-fluid"
+                                        />
+                                    </a>
+                                    <div
+                                        class="product__info d-flex justify-content-between align-items-center py-4 px-3 fs-6"
+                                    >
+                                    <div class="d-flex">
+                                        <span><i class="bi bi-heart me-3"></i></span>
+                                        <span><i class="bi bi-search"></i></span>
+                                    </div>
+                                    <div><i class="bi bi-bag me-1"></i> Shop Now</div>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3>
+                                        <a href="" class="product__name"
+                                            >Geometric print Scarf</a
+                                        >
+                                    </h3>
+                                    <div
+                                        class="product-meta d-flex justify-content-between align-items-center"
+                                    >
+                                        <a href="" class="product__category">scarf</a>
+                                        <span class="product__price">$53.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End .product-item-->
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <a href="">
+                                        <img
+                                            srcset="./upload/products/4.jpg 2x"
+                                            alt=""
+                                            class="img-fluid"
+                                        />
+                                    </a>
+                                    <div class="product__sale">SALE</div>
+                                    <div
+                                        class="product__info d-flex justify-content-between align-items-center py-4 px-3 fs-6"
+                                    >
+                                    <div class="d-flex">
+                                        <span><i class="bi bi-heart me-3"></i></span>
+                                        <span><i class="bi bi-search"></i></span>
+                                    </div>
+                                    <div><i class="bi bi-bag me-1"></i> Shop Now</div>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3>
+                                        <a href="" class="product__name"
+                                            >Yellow Reserved Hoodie</a
+                                        >
+                                    </h3>
+                                    <div
+                                        class="product-meta d-flex justify-content-between align-items-center"
+                                    >
+                                        <a href="" class="product__category">Dress</a>
+                                        <span class="product__price">$155.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End .product-item-->
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <a href="">
+                                        <img
+                                            srcset="./upload/products/5.jpg 2x"
+                                            alt=""
+                                            class="img-fluid"
+                                        />
+                                    </a>
+                                    <div class="product__sale__hot">HOT</div>
+                                    <div
+                                        class="product__info d-flex justify-content-between align-items-center py-4 px-3 fs-6"
+                                    >
+                                        <div class="d-flex">
+                                            <span><i class="bi bi-heart me-3"></i></span>
+                                            <span><i class="bi bi-search"></i></span>
+                                        </div>
+                                        <div><i class="bi bi-bag me-1"></i> Shop Now</div>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3>
+                                        <a href="" class="product__name"
+                                            >Basic Dress Green</a
+                                        >
+                                    </h3>
+                                    <div
+                                        class="product-meta d-flex justify-content-between align-items-center"
+                                    >
+                                        <a href="" class="product__category">Dress</a>
+                                        <span class="product__price">$236.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End .product-item-->
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <a href="">
+                                        <img
+                                            srcset="./upload/products/6.jpg 2x"
+                                            alt=""
+                                            class="img-fluid"
+                                        />
+                                    </a>
+                                    <div class="product__sale">SALE</div>
+                                    <div
+                                        class="product__info d-flex justify-content-between align-items-center py-4 px-3 fs-6"
+                                    >
+                                        <div class="d-flex">
+                                            <span><i class="bi bi-heart me-3"></i></span>
+                                            <span><i class="bi bi-search"></i></span>
+                                        </div>
+                                        <div><i class="bi bi-bag me-1"></i> Shop Now</div>
+                                    </div>
+                                    <div class="product__sale">50%</div>
+                                </div>
+                                <div class="product-content">
+                                    <h3>
+                                        <a href="" class="product__name"
+                                            >Nike Sportswear Futura Luxe</a
+                                        >
+                                    </h3>
+                                    <div
+                                        class="product-meta d-flex justify-content-between align-items-center"
+                                    >
+                                        <a href="" class="product__category">shoe</a>
+                                        <div>
+                                            <span class="product__price product__price--old"
+                                                >$220.00</span
+                                            >
+                                            <span class="product__price product__price--new"
+                                                >$198.00</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End .product-item-->
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <a href="">
+                                        <img
+                                            srcset="./upload/products/7.jpg 2x"
+                                            alt=""
+                                            class="img-fluid"
+                                        />
+                                    </a>
+                                    <div
+                                        class="product__info d-flex justify-content-between align-items-center py-4 px-3 fs-6"
+                                    >
+                                    <div class="d-flex">
+                                        <span><i class="bi bi-heart me-3"></i></span>
+                                        <span><i class="bi bi-search"></i></span>
+                                    </div>
+                                    <div><i class="bi bi-bag me-1"></i> Shop Now</div>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3>
+                                        <a href="" class="product__name"
+                                            >Nike Repel Miler</a
+                                        >
+                                    </h3>
+                                    <div
+                                        class="product-meta d-flex justify-content-between align-items-center"
+                                    >
+                                        <a href="" class="product__category">Dress</a>
+                                        <span class="product__price">$120.50</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End .product-item-->
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <a href="">
+                                        <img
+                                            srcset="./upload/products/8.jpg 2x"
+                                            alt=""
+                                            class="img-fluid"
+                                        />
+                                    </a>
+                                    <div
+                                        class="product__info d-flex justify-content-between align-items-center py-4 px-3 fs-6"
+                                    >
+                                    <div class="d-flex">
+                                        <span><i class="bi bi-heart me-3"></i></span>
+                                        <span><i class="bi bi-search"></i></span>
+                                    </div>
+                                    <div><i class="bi bi-bag me-1"></i> Shop Now</div>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3>
+                                        <a href="" class="product__name"
+                                            >Polarised Sunglasses</a
+                                        >
+                                    </h3>
+                                    <div
+                                        class="product-meta d-flex justify-content-between align-items-center"
+                                    >
+                                        <a href="" class="product__category">Glasses</a>
+                                        <span class="product__price">$160.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End .product-item-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End .new-product-->
+        <section class="brand-banner">
+            <div class="brand-banner-main">
+                <img src="./upload/1024px-Zara_Logo 1.png" class="img-fluid img-banner"/>
+                <div class="brand-banner-text">       
+                    <img src="./upload/1024px-Zara_Logo 2.png" class="img-text" alt="">
+                    <p>
+                        Lustrous yet understated. The new evening
+                        wear collection exclusively offered at the
+                        reopened Giorgio Armani boutique in Los
+                        Angeles.
+                    </p>
+                    <button>See Collection</button>
+                </div>
+            </div>
+        </section>
+        <!--End .brand-banner-->
+        <section class="best-sellers">
+            <div class="container">
+                <header class="best-sellers-header section-header">
+                    <h2 class="section-header__title">Best-Sellers</h2>
+                </header>
+                <div class="new-best-sellers-body">
+                    <div class="block-filter d-flex justify-content-between align-items-center">
+                        <ul class="nav">
+                            <li class="nav-item block-filter__item">
+                                <a
+                                    href=""
+                                    class="nav-link block-filter__link block-filter__link--active"
+                                    >All product</a
+                                >
+                            </li>
+                            <li class="nav-item block-filter__item">
+                                <a href="" class="nav-link block-filter__link">t-shirt</a>
+                            </li>
+                            <li class="nav-item block-filter__item">
+                                <a href="" class="nav-link block-filter__link">hoodies</a>
+                            </li>
+                            <li class="nav-item block-filter__item">
+                                <a href="" class="nav-link block-filter__link">jacket</a>
+                            </li>
+                        </ul>
+                        <button class="btn btn-dark btn-sm">
+                            Show all
+                        </button>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="best-sellers-item">
+                                <div class="best-sellers-image">
+                                    <a href="">
+                                        <img
+                                            srcset="./upload/sale/p5.png 2x"
+                                            alt=""
+                                            class="img-fluid"
+                                        />
+                                    </a>
+                                    <div class="bestsellers__hot">HOT</div>
+                                </div>
+                                <div class="best-sellers-content">
+                                    <h3>
+                                        <a href="" class="bestsellers__name"
+                                            >Basic Dress Green</a
+                                        >
+                                    </h3>
+                                    <div
+                                        class="best-sellers-meta d-flex justify-content-between align-items-center"
+                                    >
+                                        <a href="" class="bestsellers__category">Dress</a>
+                                        <span class="bestsellers__price">$236.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End .product-item-->
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="best-sellers-item">
+                                <div class="best-sellers-image">
+                                    <a href="">
+                                        <img
+                                            srcset="./upload/sale/p2.png 2x"
+                                            alt=""
+                                            class="img-fluid"
+                                        />
+                                    </a>
+
+                                </div>
+                                <div class="best-sellers-content">
+                                    <h3>
+                                        <a href="" class="bestsellers__name"
+                                            >Nike Sportswear Futura Luxe</a
+                                        >
+                                    </h3>
+                                    <div
+                                        class="best-sellers-meta d-flex justify-content-between align-items-center"
+                                    >
+                                        <a href="" class="bestsellers__category">Bag</a>
+                                        <span class="bestsellers__price">$130.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <!--End .product-item-->
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="best-sellers-item">
+                                <div class="best-sellers-image">
+                                    <a href="">
+                                        <img
+                                            srcset="./upload/sale/p4.png 2x"
+                                            alt=""
+                                            class="img-fluid"
+                                        />
+                                    </a>
+                                    <div class="bestsellers__sale">SALE</div>
+                                </div>
+                                <div class="best-sellers-content">
+                                    <h3>
+                                        <a href="" class="bestsellers__name"
+                                            >Yellow Reserved Hoodie</a
+                                        >
+                                    </h3>
+                                    <div
+                                        class="best-sellers-meta d-flex justify-content-between align-items-center"
+                                    >
+                                        <a href="" class="bestsellers__category">Dress</a>
+                                        <div class="best-sellers-meta-child d-flex">
+                                            <span class="bestsellers__pricesale text-decoration-line-through">$364.00</span>
+                                            <span class="bestsellers__price">$155.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                        <!--End .product-item-->
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="best-sellers-item">
+                                <div class="best-sellers-image">
+                                    <a href="">
+                                        <img
+                                            srcset="./upload/sale/p6.jpg 2x"
+                                            alt=""
+                                            class="img-fluid"
+                                        />
+                                    </a>
+                                    <div class="bestsellers__sale">SALE</div>
+                                </div>
+                                <div class="best-sellers-content">
+                                    <h3>
+                                        <a href="" class="bestsellers__name"
+                                            >Nike Air Zoom Pegasus</a
+                                        >
+                                    </h3>
+                                    <div
+                                        class="best-sellers-meta d-flex justify-content-between align-items-center"
+                                    >
+                                        <a href="" class="bestsellers__category">Bag</a>
+                                        <div class="best-sellers-meta-child d-flex">
+                                            <span class="bestsellers__pricesale text-decoration-line-through">$220.00</span>
+                                            <span class="bestsellers__price">$198.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                        <!--End .product-item-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End .best-sellers-->
+        <section class="follow-instagam">
+            <div class="container">
+                <header class="best-sellers-header section-header">
+                    <h2 class="section-header__title">Follow products and discounts on Instagram</h2>
+                </header>  
+                <div class="follow-instagam-body">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-2">
+                            <div class="follow-instagam-item">
+                                <div class="follow-instagam-image">
+                                    <a href="">
+                                        <img  srcset="./upload/follow/i031.jpg 2x" alt=""class="img-fluid anh"/>
+                                    </a>
+                                    <div
+                                        class="followinstagam__info">
+                                        <img srcset="./upload/follow/i0122.png" class="img-fluid nen" alt="">
+                                        <img srcset="./upload/follow/Vector.png" class="img-fluid instagam" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End .followinstagam-item-->
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-2">
+                            <div class="follow-instagam-item">
+                                <div class="follow-instagam-image">
+                                    <a href="">
+                                        <img  srcset="./upload/follow/i011.png 2x" alt=""class="img-fluid anh"/>
+                                    </a>
+                                    <div
+                                        class="followinstagam__info">
+                                        <img srcset="./upload/follow/i0122.png" class="img-fluid nen" alt="">
+                                        <img srcset="./upload/follow/Vector.png" class="img-fluid instagam" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End .followinstagam-item-->
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-2">
+                            <div class="follow-instagam-item">
+                                <div class="follow-instagam-image">
+                                    <a href="">
+                                        <img  srcset="./upload/follow/i07.png 2x" alt=""class="img-fluid anh"/>
+                                    </a>
+                                    <div
+                                        class="followinstagam__info">
+                                        <img srcset="./upload/follow/i0122.png" class="img-fluid nen" alt="">
+                                        <img srcset="./upload/follow/Vector.png" class="img-fluid instagam" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End .followinstagam-item-->
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-2">
+                            <div class="follow-instagam-item">
+                                <div class="follow-instagam-image">
+                                    <a href="">
+                                        <img  srcset="./upload/follow/i012.png 2x" alt=""class="img-fluid anh"/>
+                                    </a>
+                                    <div
+                                        class="followinstagam__info">
+                                        <img srcset="./upload/follow/i0122.png" class="img-fluid nen" alt="">
+                                        <img srcset="./upload/follow/Vector.png" class="img-fluid instagam" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End .followinstagam-item-->
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-2">
+                            <div class="follow-instagam-item">
+                                <div class="follow-instagam-image">
+                                    <a href="">
+                                        <img  srcset="./upload/follow/i0141.png 2x" alt=""class="img-fluid anh"/>
+                                    </a>
+                                    <div
+                                        class="followinstagam__info">
+                                        <img srcset="./upload/follow/i0122.png" class="img-fluid nen" alt="">
+                                        <img srcset="./upload/follow/Vector.png" class="img-fluid instagam" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End .followinstagam-item-->
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-2">
+                            <div class="follow-instagam-item">
+                                <div class="follow-instagam-image">
+                                    <a href="">
+                                        <img  srcset="./upload/follow/i021.png 2x" alt=""class="img-fluid anh"/>
+                                    </a>
+                                    <div
+                                        class="followinstagam__info">
+                                        <img srcset="./upload/follow/i0122.png" class="img-fluid nen" alt="">
+                                        <img srcset="./upload/follow/Vector.png" class="img-fluid instagam" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End .followinstagam-item-->
+                        </div>
+                    </div>
+                </div> 
+                <header class="best-sellers-header section-header">
+                    <h2 class="section-header__title">Or subscribe to the newsletter</h2>
+                </header>
+                <div class="wrapper">
+                    <div class="inner">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-10">
+                                    <label class="form-group">
+                                        <input type="text" class="input-form" placeholder="Email address..."  required>
+
+                                    </label>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-2">
+                                    <button type="submit" class=" btn button__submit">SUBMIT</button>
+                                </div>
+                              </div>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End .follow-instagam-->
+        <footer>
+            <div class="container">
+                <div class="row my-5">
+
+                    <div class="col-md-3 col-lg-3 col-xl-3 my-auto">
+
+        
+                    
+                            <a href="">
+                                <img srcset="./images/logo.png 2x" alt="" />
+                            </a>
+                    
+                      <p class="conten">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua
+                      </p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-xl-3 my-auto">
+                      <!-- Links -->
+                      <h6 class="text-uppercase fw-bold mb-4">
+                        CATALOG
+                      </h6>
+                      <p>
+                        <a href="#!" class="text-reset text-decoration-none">Necklaces</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset text-decoration-none">Hoodies</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset text-decoration-none">Jewelry Box</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset text-decoration-none">T-shirt</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset text-decoration-none">Jacket</a>
+                      </p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-xl-3 my-auto">
+                      <!-- Links -->
+                      <h6 class="text-uppercase fw-bold mb-4">
+                        ABOUT US
+                      </h6>
+                      <p>
+                        <a href="#!" class="text-reset text-decoration-none">Our Producers</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset text-decoration-none">Sitemap</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset text-decoration-none">FAQ</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset text-decoration-none">About Us</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset text-decoration-none">Terms & Conditions</a>
+                      </p>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto ">
+                      <!-- Links -->
+                      <h6 class="text-uppercase fw-bold mb-4">
+                        CUSTOMER SERVICES
+                      </h6>
+                      <p>
+                        <a href="#!" class="text-reset text-decoration-none">Contact Us</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset text-decoration-none">Track Your Order</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset text-decoration-none">Product Care & Repair</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset text-decoration-none">Book an Appointment</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset text-decoration-none">Shipping & Returns</a>
+                      </p>
+                    </div>
+                  </div>
+            </div>
+            <div class="copyright p-3  bg-dark text-white">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-md-3 col-lg-3 col-xl-3 position-relative">
+                            <p class="m-0 ">
+                                © 2022 Coral , Inc.
+                            </p>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto">
+                            <img  alt=""  srcset="./images/icons_payment.png" class="img-fluid">
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3" style="text-align: right;">
+                            <p class="m-0">
+                                Scroll to top 
+                                <i class="bi bi-arrow-up"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
